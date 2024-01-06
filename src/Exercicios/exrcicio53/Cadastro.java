@@ -3,6 +3,13 @@ package Exercicios.exrcicio53;
 import java.util.ArrayList;
 import java.util.List;
 
+//53) Faça um programa que leia a idade e o sexo de 5 pessoas, mostrando no final:
+//a) Quantos homens foram cadastrados
+//b) Quantas mulheres foram cadastradas
+//c) A média de idade do grupo
+//d) A média de idade dos homens
+//e) Quantas mulheres tem mais de 20 anos
+
 public class Cadastro {
     public static void main(String[] args) {
         int contHomens = 0;
@@ -58,6 +65,7 @@ public class Cadastro {
         for (Pessoa p : pessoas) {
             System.out.println(p);
         }
+
         System.out.println("a) Quantos homens foram cadastrados\r\n" + contHomens
                 + "\n"	+ "b) Quantas mulheres foram cadastradas\r\n" + contMulheres
                 + "\n"	+ "c) A média de idade do grupo\r\n" + mediaIdade

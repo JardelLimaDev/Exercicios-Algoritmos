@@ -101,6 +101,7 @@ public class Exercicio37 {
             }
         });
 
+        frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         painel.add(button);
 
         frame.add(painel);
