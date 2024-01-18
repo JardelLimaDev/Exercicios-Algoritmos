@@ -2,7 +2,6 @@ package Exercicios;
 
 import java.util.Random;
 
-
 //todo numero inteiro é multiplo de 10
 //poderia usar tipo double é fazer uma condição
 
