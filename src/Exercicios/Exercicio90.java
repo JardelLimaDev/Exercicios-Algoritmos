@@ -6,7 +6,7 @@ public class Exercicio90 {
     }
 
     public static void somador(int valor1, int valor2){
-        int soma = valor1 + valor1;
+        int soma = valor1 + valor2;
         System.out.println("A soma dos doi numeros é igual a " + soma);
     }
 }
